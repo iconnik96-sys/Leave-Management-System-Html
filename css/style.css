@@ -10,7 +10,10 @@
 }
 body
 {
-    background-color: var(--color1)
+    background-color: var(--color1);
+    overflow-x: hidden;
+    height: 100%;
+    overflow-y: hidden;
 }
 .outer-div
 {
