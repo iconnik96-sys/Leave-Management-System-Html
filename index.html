@@ -32,7 +32,7 @@
                 <div class="anchor">
                     <a href="">Forget password</a>
                 </div>
-                <button>Login</button>
+                <button type="button" onclick=dash()>Login</button>
             </form> 
 
         </div>
@@ -46,6 +46,10 @@
     duration: 1000,   
     once: true        
   });
+
+  function dash(){
+    window.location.href="./pages/Employee/Dashboard.html"
+  }
 </script>
 
 </body>
