@@ -1,0 +1,41 @@
+{
+    "users":[  
+        {
+            "id":1,
+            "type":"sick leve",
+            "from":"14/10/2025",
+            "to":"15/10/2025",
+            "days":2,
+            "reason":"sick leave",
+            "status":"Accepted"
+        },
+        {
+            "id":2,
+            "type":"medical leave",
+            "from":"10/10/2025",
+            "to":"13/10/2025",
+            "days":3,
+            "reason":"medical leave",
+            "status":"Pending"
+        },
+        {
+            "id":3,
+            "type":"sick leve",
+            "from":"14/10/2025",
+            "to":"15/10/2025",
+            "days":2,
+            "reason":"sick leave",
+            "status":"Rejected"
+        },
+        {
+            "id":4,
+            "type":"sick leve",
+            "from":"14/10/2025",
+            "to":"15/10/2025",
+            "days":2,
+            "reason":"sick leave",
+            "status":"Accepted"
+        }
+
+    ]
+}

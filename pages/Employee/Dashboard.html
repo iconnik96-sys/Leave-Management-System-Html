@@ -82,8 +82,8 @@
                         Leave Requests
                     </h2>
                 </div>
-                <table  class="table table-hover mt-5" >
-                    <tdead>
+                <table  class="table table-hover mt-5 " >
+                    <thead>
                         <tr class="table-dark">
                             <th>Leave Type</th>
                             <th>From</th>
@@ -92,34 +92,10 @@
                             <th>Reason</th>
                             <th>Status</th>
                         </tr>
-                    </tdead>
+                    </thead>
 
-                    <tbody>
-                        <tr>
-                            <td>Sick leave</td>
-                            <td>12/10/2025</td>
-                            <td>14/10/2025</td>
-                            <td>2</td>
-                            <td>Compensation leave</td>
-                            <td><span class="bg-danger p-2">Rejected</span></td>
-                        </tr>
-                        <tr>
-                            <td>Sick leave</td>
-                            <td>12/10/2025</td>
-                            <td>14/10/2025</td>
-                            <td>2</td>
-                            <td>Compensation leave</td>
-                            <td><span class="bg-danger p-2">Rejected</span></td>
-                        </tr>
-                        <tr>
-                            <td>Sick leave</td>
-                            <td>12/10/2025</td>
-                            <td>14/10/2025</td>
-                            <td>2</td>
-                            <td>Compensation leave</td>
-                            <td><span class="bg-danger p-2">Rejected</span></td>
-                        </tr>
-
+                    <tbody id="postTableBody">
+                       
                     </tbody>
 
                 </table>
@@ -127,6 +103,10 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="../../javascript/Employee/Dashboard.js"></script>
+
     
 </body>
 </html>
