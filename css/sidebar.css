@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+:root {
+    --color1: #50ABE7;
+    --color2: white;
+}
+
+.sidebar {
+    width: 15%;
+    min-width: 200px;             
+    background: var(--color1);
+    height: 100vh;                
+    position: fixed;               
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.logo {
+    display: block;
+}
+
+
+.sidebar a {
+    font-size: 20px;
+    text-decoration: none !important;
+    color: white !important;
+    font-weight: 500;
+    display: block;
+}
+.main-content {
+    margin-left: 15%;        
+    padding: 20px;
+}
