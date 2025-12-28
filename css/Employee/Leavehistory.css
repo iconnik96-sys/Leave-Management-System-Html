@@ -1,0 +1,22 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+thead
+{
+    background-color: var(--color1);
+    color: var(--color2);
+}
+.main-div
+{
+    margin-top: 50px;
+}
+h3
+{
+    color: var(--color1);
+}
+thead,tbody
+{
+    text-align: center;
+}
