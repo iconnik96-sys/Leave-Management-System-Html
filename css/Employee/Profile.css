@@ -1,0 +1,29 @@
+@import url(../sidebar.css);
+*
+{
+    margin: 0;
+    padding: 0;
+}
+input,select
+{
+    width: 100%;
+    margin-bottom: 12px;
+    height: 30px;
+}
+form
+{
+    padding: 40px;  
+}
+h1
+{
+     color: var(--color1);
+}
+button
+{
+    width: 150px;
+    height: 40px;
+    margin-top: 17px;
+    background-color: var(--color1);
+    color: var(--color2);
+   
+}
