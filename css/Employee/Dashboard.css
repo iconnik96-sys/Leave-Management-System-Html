@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
@@ -44,7 +44,7 @@
 .main-content {
     margin-left: 15%;        
     padding: 20px;
-}
+} */
 
 /* main content starts */
 .leave-box-main
@@ -58,7 +58,6 @@
     padding: 15px;
     border-radius: 10px;
     background-color: var(--color1);
-
 }
 .Leaves-section
 {
